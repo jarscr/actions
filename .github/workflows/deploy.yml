@@ -8,3 +8,8 @@ jobs:
         steps:
             - name: Hola Mundo
               run: echo "¡Hola, mundo!"
+    
+    second-jobs:
+        steps:
+            - name: Hola Mundo 2
+              run: echo "¡Hola, mundo 2!"
