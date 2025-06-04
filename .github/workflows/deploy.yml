@@ -1,0 +1,10 @@
+name: Servidor de Pruebas
+
+on: push
+
+jobs:
+    first-jobs:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Hola Mundo
+              run: echo "¡Hola, mundo!"
