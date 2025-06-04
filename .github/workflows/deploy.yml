@@ -12,6 +12,7 @@ jobs:
               run: cat ./hola.php
     
     second-jobs:
+        if: ${{ github.ref == 'refs/heads/main' }}
         needs: first-jobs
         runs-on: ubuntu-latest
         steps:
